@@ -54,7 +54,7 @@ The project will begin with one dataset before expanding to additional datasets 
 
 * [x] Repository initialized
 * [x] Project renamed to CellDEx-HCC
-* [ ] Update project structure for HCC imaging
+* [x] Update project structure for HCC imaging
 * [ ] Add dataset exploration notebook
 * [ ] Load first public HCC imaging scan
 * [ ] Load corresponding segmentation mask
