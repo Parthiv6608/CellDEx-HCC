@@ -216,3 +216,34 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# CellDEx-HCC: local datasets and medical imaging files
+# Keep directory documentation/placeholders trackable while excluding contents.
+data/**
+!data/README.md
+!data/**/.gitkeep
+*.dcm
+*.dicom
+*.nii
+*.nii.gz
+*.nrrd
+*.mha
+*.mhd
+*.raw
+
+# Trained model weights and checkpoints
+/checkpoints/
+/models/
+*.ckpt
+*.pth
+*.pt
+*.onnx
+
+# Generated experiment artifacts
+/outputs/
+/runs/
+wandb/
+mlruns/
+lightning_logs/
+/logs/
+/tensorboard/
